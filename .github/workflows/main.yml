@@ -1,0 +1,11 @@
+name: workflow
+on:
+  push:
+    branches:
+      - develop
+jobs:
+  simple_test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: actionName
+      - run: echo "Hello world, execute the run step"
