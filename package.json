@@ -1,0 +1,16 @@
+{
+  "name": "cypress.wecare.app-qe-systemtest",
+  "version": "1.0.0",
+  "description": "Wecare SAV application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander VALERIANO",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.10.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
