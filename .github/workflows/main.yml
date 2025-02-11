@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: actionName
-      - run: echo "Hello world, execute the run step"
+        run: echo "Hello world, execute the run step"
